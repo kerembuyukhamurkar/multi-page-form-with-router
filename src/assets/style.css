@@ -1,0 +1,128 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    background-color: #262A56;
+    color:#E3CCAE ;
+   
+}
+.main{
+    width: 50vw;
+    
+    border: 4px solid #B8621B;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 25vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+}
+.stepone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+    
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E3CCAE;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+    transition: border 137ms ease-in-out, border-radius 137ms ease-in-out;
+   
+}
+.clicked{
+    background-color: #B8621B;
+    color: #E3CCAE;
+    border: 3px solid #E3CCAE;
+    
+
+}
+.point:hover{
+    background-color: #B8621B;
+    color: #E3CCAE;
+    border: 3px solid #E3CCAE;
+  
+    
+}
+.points_flex{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    padding: 20px;
+   text-align: center;
+   font-size: 70%;
+  
+}
+
+button{
+    cursor:pointer;
+    background-color: #B8621B;
+    color: #E3CCAE;
+    padding:10px;
+     width: 50%;
+    border: 2px solid ;
+    border-radius: 20px;
+    margin: 20px;
+}
+button:hover{
+    background-color: #B8621B;
+    color: #E3CCAE;
+    border: 4px solid #E3CCAE;
+  
+
+
+}
+input{
+    background-color: #B8621B;
+    color: #E3CCAE;
+    width:100%;
+    font-size: 20px;
+    border: 1px solid #E3CCAE;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+}
+@media only screen and (max-width: 680px) {
+    .main{
+        width: 80vw;
+        border: 4px solid #B8621B;
+        margin: 0 auto;
+        margin-top: 5vh;
+        margin-bottom: 25vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 20px;
+        overflow-wrap: break-word;
+        
+    }
+
+
+
+
+}
